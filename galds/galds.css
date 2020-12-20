@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+body {
+    background-image: url("/attēli/christmas-1911637_1920.jpg");
+    background-size: cover;
+    color: bisque;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #600;
+    
+  }
+h2 {
+    font-size: 2.5em;
+    border-left: solid 3px white;
+    padding-left: 1em;
+}
+  
+
+  ul { 
+    text-align: center;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: green; 
+} 
+
+#menu {   
+    list-style-type:none;  
+    margin:0;  
+    padding:0;  
+    height:40px;  
+    background-color:#600;    
+    font-size:0.9em; 
+    
+}  
+#menu li {  
+    float:left;  
+    height:40px;  
+    line-height:40px;
+      
+}  
+#menu li a {  
+    display:block;  
+    padding:0 20px;  
+    color:#FFF;  
+    text-decoration:none;
+     
+}  
+#menu li a:hover {  
+    background-color:#900;  
+    text-decoration:none;  
+}
+
+.header{
+    padding: 0.2em;
+    margin: 0 auto;
+    
+}
+.navbar{
+    border: white solid 2px;
+    margin-top: 0;
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(64, 64, 64, 0.8); 
+    
+}
+
+#selected {
+    border: solid 2px white;
+}
+
+
+
+/*Priekš galda sadaļas css */
+
+.food-galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.food-card {
+    padding: 1em;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(3, 166, 95, 0.8);
+    text-align: center;
+}
+.food-name {
+    width: 180px;
+    margin-top: 1em;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.food-saying {
+    align-items: center;
+    width: 180px;
+}
+
+.food-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.7rem;
+}
+.food-saying {
+    cursor: pointer;
+}
+.food-saying:hover {
+    font-size: 1.2em;
+    color: yellow;
+}
+

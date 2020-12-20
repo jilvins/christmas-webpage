@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "ēdiens": "zirņi, pupas",
+        "ticējums": "lai nebūtu jāraud",
+        "bilde": "/galds/bildes/zirni.jpg"
+
+    },
+    {
+        "id": 2,
+        "ēdiens": "pīrāgi",
+        "ticējums": "lai tevi sagaida jauni pārsteigumi",
+        "bilde": "/galds/bildes/piragi.jpg"
+
+    },
+    {
+        "id": 3,
+        "ēdiens": "bietas un burkāni",
+        "ticējums": "lai būtu laba veselība",
+        "bilde": "/galds/bildes/burkani.jpg"
+
+    },
+    {
+        "id": 4,
+        "ēdiens": "piparkūkas",
+        "ticējums": "lai netrūkst mīlestības",
+        "bilde": "/galds/bildes/piparkukas.jpg"
+
+    },
+    {
+        "id": 5,
+        "ēdiens": "apaļi cepumi",
+        "ticējums": "lai būtu saulains gads",
+        "bilde": "/galds/bildes/cepumi.jpg"
+
+    },
+    {
+        "id": 6,
+        "ēdiens": "štovēti kāposti",
+        "ticējums": "lai pietiktu spēka",
+        "bilde": "/galds/bildes/kaposti.jpg"
+
+    },
+    {
+        "id": 7,
+        "ēdiens": "vistas vai cita putna cepetis",
+        "ticējums": "lai pievilinātu panākumus",
+        "bilde": "/galds/bildes/vista.jpg"
+
+    },
+    {
+        "id": 8,
+        "ēdiens": "zivis",
+        "ticējums": "lai netrūkst naudas",
+        "bilde": "/galds/bildes/zivs.jpg"
+
+    },
+    {
+        "id": 9,
+        "ēdiens": "cūkgaļa",
+        "ticējums": "lai netrūktu laimes",
+        "bilde": "/galds/bildes/cuka.jpg"
+
+    }
+]

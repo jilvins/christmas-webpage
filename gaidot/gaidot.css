@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+body {
+    background-image: url("/attēli/christmas-1869902_1920.jpg");
+    background-size: cover;
+    color: bisque;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: F5624D;
+    
+  }
+  
+  ul { 
+    text-align: center;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: green; 
+} 
+
+#menu {   
+    list-style-type:none;  
+    margin:0;  
+    padding:0;  
+    height:40px;  
+    background-color:#600;    
+    font-size:0.9em; 
+    
+}  
+#menu li {  
+    float:left;  
+    height:40px;  
+    line-height:40px;
+      
+}  
+#menu li a {  
+    display:block;  
+    padding:0 20px;  
+    color:#FFF;  
+    text-decoration:none;
+     
+}  
+#menu li a:hover {  
+    background-color:#900;  
+    text-decoration:none;  
+}
+
+.header{
+    padding: 0.2em;
+    margin: 0 auto;
+    
+}
+.navbar{
+    border: white solid 2px;
+    margin-top: 0;
+}
+.main{
+    
+    margin-left: 4em;
+    height: 60%;
+    padding-top: 3em;   
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(64, 64, 64, 0.8);  
+    margin-top: 3em; 
+}
+
+#selected {
+    border: solid 2px white;
+}
+
+/* gaidot sadaļas css*/
+
+.christmas-letter {
+    margin-left: 36em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px white;
+   /* background-image: url("/gaidot/bildes/paper-535969_1280.jpg");
+    background-size: cover;*/
+}
+
+.your-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+input {
+    font-family: inherit;
+    text-align: inherit;
+    margin-bottom: .75em;
+    padding: .25em;
+    border: 1px solid #404040;
+}
+.santa-img {
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.from {
+    font-family: 'Dancing Script', cursive;
+}
