@@ -7,13 +7,13 @@ async function getFood() {
     let food = await response.json()
     return food
 }
-
+//style="display: none;"
 
 function getFoodHtml(afood) {
     return `<div class="food-card">
     <img id="foodimg" class="food-img" src="${afood.bilde}" alt="${afood.ēdiens}">
     <p class="food-name">${afood.ēdiens}</p>
-    <p class="food-saying"> To ēd: <span class="hidden" style="display: none;">${afood.ticējums}</span></p>
+    <p class="food-saying"> To ēd: <span class="saying hidden" >${afood.ticējums}</span></p>
     </div>`
     }
 
@@ -22,19 +22,23 @@ function getFoodHtml(afood) {
         ${allFood.map(getFoodHtml).join("")}
         </div>`
 
-        let spanElement = Array.from(document.getElementsByClassName("hidden"))
+        let spanElement = Array.from(document.getElementsByClassName("saying"))
         let foodImages = Array.from(document.getElementsByClassName("food-saying"))
+        let hiddenAnswer = Array.from(document.getElementsByTagName('span'))
         foodImages.forEach(fdImg => {
+    
             fdImg.addEventListener("click", event => {
                 
                 spanElement.forEach(span => {
-                    span.style.display = "inline"})
+                    span.classList.toggle("hidden")})
+                   
+
             })
         })
     })
 
 
-
+  
 
 
 

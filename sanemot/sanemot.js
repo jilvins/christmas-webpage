@@ -8,7 +8,8 @@ async function getPoetry() {
     let response = await fetch('/sanemot/pantini.json')
     let poetry = await response.json()
     let num = Math.floor(Math.random() * poetry.length)
-    defaultText.innerHTML = poetry[num].dzejolis
+    document.getElementById('santaPic').classList.add('hidden')
+    defaultText.innerText = poetry[num].dzejolis
    
 }
 

@@ -5,10 +5,10 @@ html, body {
     
 }
 body {
-    background-image: url("/attēli/advent-5784271_1920.jpg");
+    background-image: url("/attēli/wood-1776042_1280.jpg");
     background-size: cover;
     color: bisque;
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     
@@ -23,9 +23,10 @@ h1 {
     
   }
 h2 {
-    font-size: 2.5em;
-    border-left: solid 3px white;
+    font-size: 1.5em;
     padding-left: 1em;
+    color:white;
+    font-family: 'Merriweather', serif;
 }
   
 
@@ -35,7 +36,7 @@ h2 {
     margin: 0; 
     padding: 0; 
     overflow: hidden; 
-    background-color: green; 
+
 } 
 
 #menu {   
@@ -78,19 +79,17 @@ h2 {
     
     margin-left: 4em;
     height: 60%;
-    padding-top: 3em;   
+    padding-top: 3em; 
+    margin-bottom: 3em;  
 }
 
 .main p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.9;
     border-left: solid 3px white;
     padding: 1em;
 }
-.main p span {
-    color: #CC231E;
-    font-size: 1.7em;
-}
+
 .footer{
     text-align: center;
     color: white;
@@ -110,5 +109,28 @@ h2 {
     display: none;
 }
 
+.santa-pic {
+    width: 300px;
+}
+
+.poetry-container {
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    width: 600px;
+    margin: 0 auto;
+}
+#poetry-btn{
+    width: 180px;
+    height: 80px;
+    font-size: 1.5em;
+    background-color: #600;
+    color: white;
+}
+
+#poetry-btn:hover {
+    background-color: #900;
+
+}
 
 
