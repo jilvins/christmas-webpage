@@ -73,6 +73,8 @@ h1 {
 .navbar{
     
     margin-top: 0;
+    height: 250px;
+    z-index: 1;
 }
 .main{
     
@@ -100,11 +102,12 @@ h1 {
 /* CSS prieks noskanojumam sadalas */
 
 .carousel {
-    max-width: 900px;
-    position: relative;
+    max-width: 1400px;
+    position:absolute;
     border: solid 2px white;
-    margin: -4.5em auto
-    
+    left: 0px;
+    top: 0px;
+      
 }
 
 .carousel .carousel-item,
@@ -118,9 +121,10 @@ h1 {
 }
 
 .carousel .carousel-item img {
-    width: 100%;
-    max-width: 900px;
+    width: 100vw;
+    max-width: 1400px;
     height: 100vh;
+    
 }
 
 .carousel .carousel-actions {
@@ -163,10 +167,8 @@ h1 {
 
 audio {
     width: 200px;
-    margin-top: 200px;
+    bottom: 100px;
     filter: drop-shadow(2px 3px 3px #333);
-    
-  
 }
 
 

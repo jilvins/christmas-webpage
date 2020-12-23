@@ -25,16 +25,23 @@ function getFoodHtml(afood) {
         let spanElement = Array.from(document.getElementsByClassName("saying"))
         let foodImages = Array.from(document.getElementsByClassName("food-saying"))
         let hiddenAnswer = Array.from(document.getElementsByTagName('span'))
-        foodImages.forEach(fdImg => {
-    
+        foodImages.forEach(fdImg => {  
+            
+            /*const onClick = event => {
+                const clickedItem = event.target}
+                console.log("you clicked on" + clickedItem)}*/
+        
+            
+
             fdImg.addEventListener("click", event => {
                 
+                    const clickedItem = event.target
                 spanElement.forEach(span => {
+                    console.log(clickedItem)
                     span.classList.toggle("hidden")})
-                   
-
             })
         })
+    
     })
 
 
