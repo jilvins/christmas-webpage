@@ -14,6 +14,7 @@ function getFoodHtml(afood) {
     <img id="foodimg" class="food-img" src="${afood.bilde}" alt="${afood.ēdiens}">
     <p class="food-name">${afood.ēdiens}</p>
     <p class="food-saying"> To ēd: <span class="saying hidden" >${afood.ticējums}</span></p>
+    
     </div>`
     }
 
@@ -22,9 +23,9 @@ function getFoodHtml(afood) {
         ${allFood.map(getFoodHtml).join("")}
         </div>`
 
-        let spanElement = Array.from(document.getElementsByClassName("saying"))
+        let saying = Array.from(document.getElementsByClassName("saying"))
         let foodImages = Array.from(document.getElementsByClassName("food-saying"))
-        let hiddenAnswer = Array.from(document.getElementsByTagName('span'))
+        
         foodImages.forEach(fdImg => {  
             
             /*const onClick = event => {
@@ -35,11 +36,9 @@ function getFoodHtml(afood) {
 
             fdImg.addEventListener("click", event => {
                 
-                    const clickedItem = event.target
-                spanElement.forEach(span => {
-                    console.log(clickedItem)
-                    span.classList.toggle("hidden")})
-            })
+                    const clickedItem = event.target.querySelector('span')
+                    clickedItem.classList.toggle("hidden")})
+            
         })
     
     })

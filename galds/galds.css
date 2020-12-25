@@ -130,10 +130,12 @@ h2 {
     cursor: pointer;
 }
 .food-saying:hover {
-    font-size: 1.2em;
-    color: yellow;
+    font-size: 1.1em;
 }
 .hidden {
     display: none;
 }
 
+.saying {
+    color:yellow;;
+}
