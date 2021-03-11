@@ -1,7 +1,17 @@
 let letterSender = document.getElementById("letter-To-Santa")
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
 letterSender.addEventListener("submit", click => {
     click.preventDefault()
-    console.log("It is working")
+    
 
     let letterInfo = new FormData(click.target)
 

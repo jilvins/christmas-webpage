@@ -2,6 +2,7 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/sanemot/sanemot.css" rel="stylesheet">
 </head>
 <body>
@@ -46,15 +47,17 @@
 <h1 class="header">Tuvojas Ziemassvētku laiks!</h1>
 </header>
 
-<navbar class="navbar">
-    <ul id="menu">
-        <li><a href="/index.html">Sākums</a></li>
-        <li><a href="/galds/galds.html">Svētku galds</a></li>
-        <li><a href="/gaidot/gaidot.html">Dāvanu gaidot</a></li>
-        <li id="selected"><a href="/sanemot/sanemot.html">Dāvanu saņemot</a></li>
-        <li><a href="/noskanojumam/noskanojumam.html">Noskaņojumam</a></li>
-    </ul>
-</navbar>
+<div class="topnav" id="myTopnav">
+    <a href="/index.html">Sākums</a>
+    <a href="/galds/galds.html">Svētku galds</a>
+    <a href="/gaidot/gaidot.html" >Dāvanu gaidot</a>
+    <a href="/sanemot/sanemot.html" class="active">Dāvanu saņemot</a>
+    <a href="/noskanojumam/noskanojumam.html">Noskaņojumam</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
 <main class="main">
     <div class="poetry-container">
         <h2 id="default-text">Tikai nesaki ka nezini nevienu pantiņu...</h2>

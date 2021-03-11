@@ -2,6 +2,15 @@ let poetryButton = document.getElementById("poetry-btn")
 let mainContainer = document.querySelector('.poetry-container')
 let defaultText = document.getElementById('default-text')
 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
 poetryButton.addEventListener("click", getPoetry)
 
 async function getPoetry() {

@@ -1,13 +1,20 @@
 let mainContainer = document.querySelector('.main')
 const header = document.getElementById('header')
 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 
 async function getFood() {
     let response = await fetch('/galds/galds.json')
     let food = await response.json()
     return food
 }
-//style="display: none;"
 
 function getFoodHtml(afood) {
     return `<div class="food-card">
@@ -27,13 +34,6 @@ function getFoodHtml(afood) {
         let foodImages = Array.from(document.getElementsByClassName("food-saying"))
         
         foodImages.forEach(fdImg => {  
-            
-            /*const onClick = event => {
-                const clickedItem = event.target}
-                console.log("you clicked on" + clickedItem)}*/
-        
-            
-
             fdImg.addEventListener("click", event => {
                 
                     const clickedItem = event.target.querySelector('span')
